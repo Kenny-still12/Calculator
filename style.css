@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    border: solid black;
+    border-radius: 20px;
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.display {
+    border: solid black;
+    border-radius: 20px;
+    width: 580px;
+    height: 180px;
+    margin: auto;
+    margin-top: 7px;
+    box-sizing: border-box;
+    background-color: rgb(191, 184, 184);
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.btn {
+    border-radius: 10px;
+    width: 20%;
+    padding: 15px;
+    margin: 5px;
+    font-size: 30px;
+    background-color: grey;
+    color: white;
+}
+
+.number,
+.decimal {
+    background-color: rgb(55, 55, 55);
+}
+
+.operation,
+.equals{
+    background-color:rgb(203, 147, 43);
+}
+
+#zero{
+    flex: 1;
+}
